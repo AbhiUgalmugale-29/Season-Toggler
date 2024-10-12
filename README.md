@@ -4,7 +4,7 @@ A simple web application that allows users to toggle between different seasons (
 
 ## Demo
 
-![Season Toggler Demo](https://seasontoggler.netlify.app/)
+#[Season Toggler Demo](https://seasontoggler.netlify.app/)
 
 ## Technologies Used
 
