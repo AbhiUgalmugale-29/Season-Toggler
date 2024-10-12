@@ -1,0 +1,72 @@
+#body {
+    background-color: #ffd633;
+    transition: background-color 0.5s ease;
+}
+
+.container {
+    background-color: #fff;
+    height: 470px;
+    width: 370px;
+    padding: 10px;
+    display: block;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#seasonImage {
+    width: 80%;
+    display: block;
+    margin: 30px auto;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.buttons button {
+    height: 30px;
+    width: 80px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 550;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.summerButton {
+    background-color: #ffd633;
+}
+
+.winterButton {
+    background-color: #66b0ff;
+}
+
+.monsoonButton {
+    background-color: #5bd778;
+}
